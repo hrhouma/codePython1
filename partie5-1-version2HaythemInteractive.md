@@ -62,3 +62,36 @@ animal.faire_du_bruit()
 ## Conclusion
 
 Vous avez maintenant appris à créer une classe en Python qui prend en compte les entrées de l'utilisateur pour initialiser ses attributs. Cette méthode interactive rend l'apprentissage de la programmation plus engageant et illustre comment les programmes peuvent interagir avec les utilisateurs en temps réel.
+
+
+# Autres remarques: C'est quoi f  dans print(f"{animal.nom} est un {animal.espece} et a {animal.age} ans.") ?
+
+Le `f` devant les guillemets dans `print(f"quelque chose")` indique que la chaîne de caractères est une **f-string**, introduite en Python 3.6. L'utilisation de f-strings permet d'incorporer facilement des expressions Python directement dans une chaîne de caractères, ce qui la rend très utile pour la concaténation de chaînes et l'insertion de variables ou d'expressions complexes.
+
+### Comment fonctionne une f-string ?
+
+Quand vous utilisez une f-string, tout ce que vous mettez entre `{}` à l'intérieur de la chaîne est évalué en Python et converti en une chaîne de caractères pour être affiché avec le reste du texte. Voici quelques exemples pour illustrer comment les f-strings peuvent être utilisées :
+
+```python
+nom = "Marie"
+age = 30
+print(f"{nom} a {age} ans.")  # Affichera: Marie a 30 ans.
+```
+
+Dans cet exemple, `nom` et `age` sont insérés directement dans la chaîne grâce aux accolades `{}`. Python remplace `{nom}` par la valeur de la variable `nom` et `{age}` par la valeur de la variable `age`.
+
+### Avantages des f-strings
+
+1. **Lisibilité** : Les f-strings rendent le code plus lisible et clair, car vous pouvez directement voir quelles variables sont insérées dans la chaîne de caractères.
+2. **Performance** : Elles sont généralement plus rapides que les autres méthodes de formatage de chaînes en Python, comme les méthodes `str.format()` ou la concaténation.
+3. **Polyvalence** : Vous pouvez mettre n'importe quelle expression Python valide à l'intérieur des accolades, ce qui inclut les appels de fonction, les opérations arithmétiques, etc.
+
+```python
+import math
+rayon = 4
+print(f"La circonférence d'un cercle de rayon {rayon} est {2 * math.pi * rayon}.")
+```
+
+Ce dernier exemple montre une opération arithmétique (calcul de la circonférence d’un cercle) directement dans la f-string.
+
+Les f-strings sont donc un moyen puissant et efficace de gérer le formatage de chaînes de caractères en Python, rendant le code plus propre et facile à comprendre tout en conservant une haute performance.
