@@ -169,6 +169,42 @@ print(b.nom + " " + b.prenom)
 1. **Ouvrir le terminal** : Dans Visual Studio Code, ouvrez un terminal en allant dans `Terminal > New Terminal`.
 2. **Exécuter le fichier** : Tapez `python personne.py` dans le terminal et appuyez sur `Enter`.
 
+
+
+
+## Instruction 7 : Créer et Utiliser des Instances
+
+1. **Créer des instances** : En bas de votre fichier, ajoutez le code pour créer plusieurs instances et les utiliser.
+
+```python
+# Instances de la classe Personne
+a = Personne("REHOUMA", "Haythem")
+b = Personne("CUNHA", "Nastasia")
+c = Personne("MARTIN", "Elise")
+d = Personne("DUPONT", "Alexandre")
+
+# Affichage des noms
+print(a.nom + " " + a.prenom)
+print(b.nom + " " + b.prenom)
+print(c.nom + " " + c.prenom)
+print(d.nom + " " + d.prenom)
+
+# Appel des méthodes
+a.manger()
+b.dormir()
+c.manger()
+d.dormir()
+```
+
+2. **Explication** : Ce code crée quatre instances de `Personne` et utilise les méthodes pour afficher des comportements.
+
+# Instruction 8 :Exécuter le Script
+
+1. **Ouvrir le terminal** : Dans Visual Studio Code, ouvrez un terminal via `Terminal > New Terminal`.
+2. **Exécuter le fichier** : Dans le terminal, tapez `python personne.py` et pressez `Enter` pour voir les résultats.
+
+
+
 ## Conclusion
 
 Ce guide démontre les bases de la programmation orientée objet en Python, incluant la définition de classes, le constructeur, les méthodes, et la création d'instances. Suivez chaque étape pour renforcer votre compréhension et appliquer ces concepts.
