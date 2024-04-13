@@ -1,5 +1,4 @@
 # Exercice - reproduire l'application PAINT
-Bien sûr, intégrer des exercices à la fin de chaque étape est une excellente manière de rendre l'apprentissage plus interactif et engageant. Voici des suggestions d'exercices pour chaque étape du développement de l'application Tkinter que nous avons discutée, pour renforcer la compréhension des étudiants et leur permettre de pratiquer ce qu'ils ont appris.
 
 ### Étape 1: Création de la Fenêtre Principale
 
