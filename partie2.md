@@ -43,6 +43,12 @@ Maintenant, ajoutons un constructeur à la classe `Personne` pour initialiser le
 
 ```python
 class Personne:
+    # Attributs de classe
+    nom = "Nom par défaut"
+    prenom = "Prénom par défaut"
+    tel = "0000000000"
+    age = 0
+
     def __init__(self, nomaremplacer, prenomaremplacer, telaremplacer, agearemplacer):
         self.nom = nomaremplacer
         self.prenom = prenomaremplacer
