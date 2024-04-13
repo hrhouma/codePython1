@@ -1,3 +1,4 @@
+```python
 class Animal:
     nom = ''
     espece = ''
@@ -29,3 +30,4 @@ son1 = input("Quel son fait cet animal ? : ")
 
 lola = Animal(nom1, espece1, age1, son1)
 print(lola.faire_du_bruit())
+```
