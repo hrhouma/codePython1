@@ -1,8 +1,9 @@
 # Exercice - reproduire l'application PAINT
-### Code 1: Création de la Fenêtre Principale
+Bien sûr, intégrer des exercices à la fin de chaque étape est une excellente manière de rendre l'apprentissage plus interactif et engageant. Voici des suggestions d'exercices pour chaque étape du développement de l'application Tkinter que nous avons discutée, pour renforcer la compréhension des étudiants et leur permettre de pratiquer ce qu'ils ont appris.
 
-Ce premier code est le squelette de base de toute application Tkinter. Il crée simplement une fenêtre principale.
+### Étape 1: Création de la Fenêtre Principale
 
+**Code Initial:**
 ```python
 import tkinter as tk
 
@@ -13,10 +14,12 @@ root = tk.Tk()
 root.mainloop()
 ```
 
-### Code 2: Ajout d'un Titre à la Fenêtre
+**Exercice:**
+Modifiez la taille de la fenêtre principale pour qu'elle soit 800 pixels de large par 600 pixels de haut.
 
-Ici, nous ajoutons un titre à la fenêtre principale pour donner plus de contexte à l'utilisateur sur ce que fait l'application.
+### Étape 2: Ajout d'un Titre à la Fenêtre
 
+**Code Initial:**
 ```python
 import tkinter as tk
 
@@ -30,10 +33,12 @@ root.title("Application de Dessin")
 root.mainloop()
 ```
 
-### Code 3: Ajout d'un Canvas pour Dessiner
+**Exercice:**
+Changez le titre de la fenêtre en "Mon Application de Dessin".
 
-Ce code introduit un `Canvas`, qui est l'espace où les utilisateurs pourront dessiner.
+### Étape 3: Ajout d'un Canvas pour Dessiner
 
+**Code Initial:**
 ```python
 import tkinter as tk
 
@@ -43,16 +48,18 @@ root.title("Application de Dessin")
 
 # Ajout d'un Canvas à la fenêtre
 canvas = tk.Canvas(root, width=400, height=400, bg='white')
-canvas.pack(pady=20)  # Ajoute un peu d'espace autour du canvas
+canvas.pack(pady=20)
 
 # Démarre la boucle principale de l'application
 root.mainloop()
 ```
 
-### Code 4: Ajout d'un Bouton pour Choisir une Couleur
+**Exercice:**
+Changez la couleur de fond du canvas en gris clair (`lightgray`).
 
-Ce morceau de code ajoute un bouton qui permet à l'utilisateur de choisir une couleur. Pour l'instant, le bouton ne fera rien jusqu'à ce que nous ajoutions la fonctionnalité dans un prochain exemple.
+### Étape 4: Ajout d'un Bouton pour Choisir une Couleur
 
+**Code Initial:**
 ```python
 import tkinter as tk
 from tkinter import colorchooser
@@ -77,10 +84,12 @@ color_button.pack(fill=tk.X)
 root.mainloop()
 ```
 
-### Code 5: Fonctionnalité Complète du Bouton de Couleur
+**Exercice:**
+Ajoutez un autre bouton intitulé "Effacer le dessin" qui, pour le moment, ne fera rien. Positionnez ce bouton à côté du bouton "Choisir Couleur".
 
-Nous allons maintenant faire en sorte que le bouton de couleur change réellement la couleur utilisée pour dessiner.
+### Étape 5: Fonctionnalité Complète du Bouton de Couleur
 
+**Code Initial:**
 ```python
 import tkinter as tk
 from tkinter import colorchooser
@@ -111,5 +120,7 @@ color_button.pack(fill=tk.X)
 root.mainloop()
 ```
 
-- Chaque étape introduit un nouvel élément ou une nouvelle fonctionnalité, vous aidant à comprendre progressivement comment construire une application avec une interface utilisateur en Python. 
-- Vous pouvez continuer à construire sur cette base, en ajoutant des fonctionnalités comme la gestion des événements de dessin sur le canvas, l'ajout de plusieurs boutons pour différentes actions, etc.
+**Exercice:**
+Modifiez la fonction `choose_color` pour afficher la couleur choisie dans le terminal chaque fois qu'une couleur est sélectionnée. Utilisez `print()` pour afficher la valeur de la couleur.
+
+Chaque exercice vous permet de pratiquer des modifications simples, renforçant votre compréhension de l'utilisation de Tkinter pour créer des interfaces utilisateur en Python. Ces activités vous encouragent également à explorer et à personnaliser davantage votre application.
