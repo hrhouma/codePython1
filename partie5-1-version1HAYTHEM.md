@@ -17,10 +17,6 @@ Instanciez un animal de votre choix, définissez ses attributs et faites-le "fai
 ---
 
 
-D'accord, je vais ajuster le guide pour inclure le son comme un attribut de la classe `Animal`, qui sera passé comme paramètre lors de la création de chaque instance. Cette approche rend le modèle plus flexible et permet aux étudiants de comprendre l'utilisation des attributs personnalisés lors de l'instanciation.
-
----
-
 # Correction Étape par Étape pour Créer et Utiliser la Classe `Animal`
 
 Dans ce tutoriel, nous allons créer une classe `Animal` qui intègre des attributs pour le nom, l'espèce, l'âge, et un son caractéristique. Chaque instance de la classe pourra utiliser ces attributs pour simuler des comportements.
