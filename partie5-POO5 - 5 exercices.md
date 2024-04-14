@@ -86,4 +86,4 @@ Instanciez une voiture avec les spécifications de votre choix, puis utilisez la
 
 ---
 
-Chaque exercice est conçu pour renforcer les compétences de base en programmation orientée objet, en permettant aux étudiants de créer des structures de classes simples, d'initialiser des objets, et d'utiliser des méthodes pour manipuler ces objets. Encouragez les étudiants à jouer avec les attributs et méthodes pour mieux comprendre leur interaction.
+Chaque exercice est conçu pour renforcer les compétences de base en programmation orientée objet, en vous permettant de créer des structures de classes simples, d'initialiser des objets, et d'utiliser des méthodes pour manipuler ces objets. Je vous encourage à jouer avec les attributs et méthodes pour mieux comprendre leur interaction.
