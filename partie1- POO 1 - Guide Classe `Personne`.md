@@ -1,4 +1,4 @@
-# POO 1 - Guide Classe `Personne`
+# partie1-Guide Étape par Étape pour la Classe Personne.md
 
 Ce guide vous aidera à comprendre comment la classe `Personne` est construite et utilisée en Python. Suivez les étapes pour apprendre à définir des attributs, des méthodes, et à créer des instances de la classe.
 
